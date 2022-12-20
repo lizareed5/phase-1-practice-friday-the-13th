@@ -17,7 +17,7 @@ function renderMovie(movie){
     title.innerText = movie.title
     yearReleased.innerText = movie.release_year
     description.innerText = movie.description
-    amount.innerText = movie.blood_amount
+    totalBlood.innerText = movie.blood_amount
 
     watched.addEventListener('click', (e) => {
         if (movie.watched === false) {
